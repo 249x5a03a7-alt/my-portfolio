@@ -4,88 +4,127 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Resume</title>
+    <title>Rakesh Kumar - Resume</title>
 </head>
 
 <body>
-    <table>
-        <tr>
-            <td>
-                <img src="profile.png" alt="Profile image" width="200" height="200" style="float: left;">
-            </td>
-            <td>
-                <h1 style="color: rgb(255, 0, 255);">Rakesh kumar</h1>
-                <p>I'm a Full Stack Developer</p>
-                <p>I😁 Developing full stack applications and making students as full stack developers🚀 </p>
-            </td>
-        </tr>
-    </table>
-    <hr>
-    <h2>Education</h2>
-    <table border="">
-        <tr>
-            <th>Degree</th>
-            <th>Institution</th>
-            <th>Year</th>
-            <th>Percentage</th>
-        </tr>
-        <tr>
-            <td>B.Tech</td>
-            <td>GPREC</td>
-            <td>2024-2027</td>
-            <td>9.3</td>
-        </tr>
-        <tr>
-            <td>Diploma</td>
-            <td>GOVT POLYTHENIC FOR MINORTIES KURNOOL</td>
-            <td>2021-2024</td>
-            <td>7.4</td>
-        </tr>
-        <tr>
-            <td>S.S.C</td>
-            <td>Bhashyam high School</td>
-            <td>2020-2021</td>
-            <td>10.0</td>
-        </tr>
-    </table>
-    <h2>Practical Expertise</h2>
-    <ul>
-        <li>MERN Stack</li>
-        <li>Ethical Hacking</li>
-        <li>UI/UX Designing</li>
-    </ul>
 
-    <h2>Projects</h2>
-    <p><b>My Portfolio</b></p>
-    <p><i>My portfolio Application</i></p>
-    <p><a href="#">Visit Project</a></p>
-    <ul>
-        <li>this is a portfolio application where i used tech stack as HTML</li>
-    </ul>
-    <h2>Contact Me</h2>
-    <fieldset>
-        <legend>Contact Form</legend>
-        <form action="https://formspree.io/f/xvgaqzbk" method="POST>
-            <label for=" name">Name:</label>
-            <input type="text" name="name" placeholder="Enter your name">
-            <br><br>
-            <label for="email">Email:</label>
-            <input type="email" name="email" placeholder="Enter your email">
-            <br><br>
-            <label for="message">Message:</label>
-            <textarea name="message" rows="5" cols="30" placeholder="Enter your message"></textarea>
-            <br><br>
-            <input type="submit" value="Submit">
-            <input type="reset" value="Reset">
-        </form>
-    </fieldset>
-    <p>Contact me at: <a href="magalirakeshkumar@gmail.com">📩</a>
-    <p>Connect with me: <a href="callto:8125793767">📞</a></p>
-    <p>Linkdin: <a href="https://www.linkedin.com/in/nithin-gottiparthi-0b1b1a1b2/" target="_blank">LinkedIn</a></p>
-    <p>GitHub: <a href="https://www.github.com/nithin-gottiparthi" target="_blank">GitHub</a></p>
+    <!-- Header Section -->
+    <header>
+        <h1>Rakesh Kumar</h1>
+        <h3>Full Stack Developer</h3>
+        <p>I develop full stack applications and help students become full stack developers 🚀</p>
+    </header>
+
+    <hr>
+
+    <!-- Profile Section -->
+    <section>
+        <h2>Profile</h2>
+        <table>
+            <tr>
+                <td>
+                    <img src="profile.png" alt="Profile Image" width="200" height="200">
+                </td>
+                <td>
+                    <p>Passionate Full Stack Developer skilled in MERN stack, Ethical Hacking, and UI/UX designing. 
+                    I enjoy building user-focused products and solving real-world problems.</p>
+                </td>
+            </tr>
+        </table>
+    </section>
+
+    <hr>
+
+    <!-- Education Section -->
+    <section>
+        <h2>Education</h2>
+        <table border="1" cellpadding="10">
+            <tr>
+                <th>Degree</th>
+                <th>Institution</th>
+                <th>Year</th>
+                <th>Percentage</th>
+            </tr>
+            <tr>
+                <td>B.Tech</td>
+                <td>GPREC</td>
+                <td>2024-2027</td>
+                <td>9.3</td>
+            </tr>
+            <tr>
+                <td>Diploma</td>
+                <td>Govt Polytechnic for Minorities, Kurnool</td>
+                <td>2021-2024</td>
+                <td>7.4</td>
+            </tr>
+            <tr>
+                <td>S.S.C</td>
+                <td>Bhashyam High School</td>
+                <td>2020-2021</td>
+                <td>10.0</td>
+            </tr>
+        </table>
+    </section>
+
+    <hr>
+
+    <!-- Skills -->
+    <section>
+        <h2>Practical Expertise</h2>
+        <ul>
+            <li>MERN Stack</li>
+            <li>Ethical Hacking</li>
+            <li>UI/UX Designing</li>
+        </ul>
+    </section>
+
+    <hr>
+
+    <!-- Projects -->
+    <section>
+        <h2>Projects</h2>
+        <h3>My Portfolio</h3>
+        <p><i>A complete portfolio web application.</i></p>
+        <p><a href="#">Visit Project</a></p>
+        <ul>
+            <li>Developed using pure HTML.</li>
+        </ul>
+    </section>
+
+    <hr>
+
+    <!-- Contact -->
+    <section>
+        <h2>Contact Me</h2>
+        <fieldset>
+            <legend>Contact Form</legend>
+            <form action="https://formspree.io/f/xvgaqzbk" method="POST">
+                <label>Name:</label>
+                <input type="text" name="name" placeholder="Enter your name"><br><br>
+
+                <label>Email:</label>
+                <input type="email" name="email" placeholder="Enter your email"><br><br>
+
+                <label>Message:</label>
+                <textarea name="message" rows="5" cols="30" placeholder="Enter your message"></textarea><br><br>
+
+                <input type="submit" value="Submit">
+                <input type="reset" value="Reset">
+            </form>
+        </fieldset>
+
+        <p>Email: <a href="mailto:magalirakeshkumar@gmail.com">📩 Send Mail</a></p>
+        <p>Call: <a href="tel:8125793767">📞 8125793767</a></p>
+        <p>LinkedIn: <a href="https://www.linkedin.com/in/nithin-gottiparthi-0b1b1a1b2/" target="_blank">View Profile</a></p>
+        <p>GitHub: <a href="https://www.github.com/nithin-gottiparthi" target="_blank">Visit GitHub</a></p>
+    </section>
+
 </body>
 
 </html>
+
+
 
 
 
